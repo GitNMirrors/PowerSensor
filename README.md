@@ -39,6 +39,8 @@ The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire 
 | 3   | red             | red           | 5V/3,3V     |
 | 4   | black           | blue          | GND         |
 
+![](/img/Cable.png)
+
 ### Connecting to Arduino
 
 Connect the probe as follows:
@@ -66,12 +68,18 @@ https://github.com/GitNMirrors/PowerSensor/archive/master.zip
 
 ## Measure Power
 
-You will have to set your laser controller to fire for 20 Seconds at full power. 
+You will have to set your laser controller up to fire at full power for 20s. 
+
+*During these 20s the power probe will get hot! Especially with lasers above 50W it's temperature will exceed 60°C!*
+
 Some controllers can only be set to fire for 10s (Ruida) it is okay to fire those for a second 9999ms shortly after the first. 
 
-The calibration data is read from the probe every time you use it, so you do not have to calirate anything yourself.
 Connect your Arduino with the PowerSensor to your computer and in the Arduino IDE open the Serial Monitor at 115200 Baud.
-Follow the onscreen instructions.
+
+Mount the sensor block on the stainless tube sticking out of the black block or suspend the sensor on it's cable just in front of the laser tube. 
+Follow the intructions in the serial terminal and fire tle laser for 20s. 
+
+Keep in mind, that the block stays hot afte the mesurement for a while.
 
 
 
