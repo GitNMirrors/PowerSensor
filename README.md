@@ -37,6 +37,12 @@ Receptical on the probe   Colors on the plug:
 4: GND		blue
 
 
+| Pin | Color on Sensor | Color on plug | Arduino Pin |
+|-----|-----------------|---------------|-------------|
+| 1   | yellow          | black         | A0          |
+| 2   |                 | green         |             |
+| 3   | red             | red           | 5V/3,3V     |
+| 4   | black           | blue          | GND         |
 
 ### Connecting to Arduino
 
@@ -58,9 +64,17 @@ https://www.arduino.cc/en/Main/Software
 And the "DallasTemperature" library which can be installed via the library manager:
 https://www.arduino.cc/en/Guide/Libraries
 
-Download 
+Download this repository and flash the sketch to your arduino
+https://github.com/GitNMirrors/PowerSensor/archive/master.zip
 
 
+## Measure Power
+
+You will have to set your laser controller to fire for 20 Seconds at full power. 
+Some controllers can only be set to fire for 10s (Ruida) it is okay to fire those for a second 9999ms shortly after the first. 
+
+Connect your Arduino with the PowerSensor to your computer and in the Arduino IDE open the Serial Monitor at 115200 Baud.
+Follow the onscreen instructions.
 
 
 
