@@ -1,4 +1,4 @@
-"# PowerSensor" 
+# Smoke and Mirrors PowerSensor
 
 Our Power Sensor is an affordable piece of kit to check your infrared CO2 lasertube and keep track of it's power over time. 
 At the moment we supply it as the Sensor only, you will have to hook it up to an Arduino flash our arduino sketch. 
