@@ -2,6 +2,7 @@
 
 Our Power Sensor is an affordable piece of kit to check your infrared CO2 lasertube and keep track of it's power over time. 
 At the moment we supply it as the Sensor only, you will have to hook it up to an Arduino flash our arduino sketch. 
+The calibration data is stored on the probe and writteh on the sleeve of it's cable. 
 
 ## Contents:
 
@@ -12,8 +13,8 @@ At the moment we supply it as the Sensor only, you will have to hook it up to an
 ## Specs
 
 - usable for 20-150W infrared CO2 laser tubes.
-- asolue accuracy: +-5W
-- relative accuracy: <2W
+- asolue accuracy: ±5W
+- relative rerror: <±2W
 
 ## Therory of operation
 
@@ -30,14 +31,8 @@ The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire 
 
 ###Pinout 
 
-Receptical on the probe   Colors on the plug:
-1: OneWire		black
-2: (for futre use)		green
-3: Vcc (5V and 3,3V)		red
-4: GND		blue
 
-
-| Pin | Color on Sensor | Color on plug | Arduino Pin |
+| Pin | color on sensor | color on plug | Arduino Pin |
 |-----|-----------------|---------------|-------------|
 | 1   | yellow          | black         | A0          |
 | 2   |                 | green         |             |
@@ -47,13 +42,14 @@ Receptical on the probe   Colors on the plug:
 ### Connecting to Arduino
 
 Connect the probe as follows:
-blue wire to any GND pin on your arduino
+
+blue wire to any GND pin
 red wire to 5/3.3V
 black to A0 
 
-Now add 4,7k Ohm pullup resistor between the red and black wire. 
+Now add a 4,7k Ohm pullup resistor between the red and black wire. 
 
-The green wire remains nconnected. 
+The green wire remains unconnected. 
 
 ## Software 
 
@@ -73,6 +69,7 @@ https://github.com/GitNMirrors/PowerSensor/archive/master.zip
 You will have to set your laser controller to fire for 20 Seconds at full power. 
 Some controllers can only be set to fire for 10s (Ruida) it is okay to fire those for a second 9999ms shortly after the first. 
 
+The calibration data is read from the probe every time you use it, so you do not have to calirate anything yourself.
 Connect your Arduino with the PowerSensor to your computer and in the Arduino IDE open the Serial Monitor at 115200 Baud.
 Follow the onscreen instructions.
 
