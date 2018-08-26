@@ -11,10 +11,7 @@ The calibration data is stored on the probe and writteh on the sleeve of it's ca
 High power lasers are dangerous and emit laser radiation. A stray or even unfocused laserbeam at 10.6uM can set materials on fire and causes permanent damage to human tissue.
 All interlocks should be engaged and all panels on your cutter shut. 
 The high voltage generated at the anode of the tube is discharged at the cathode where the beam leaves the tube. Mount the sensor on the stainless tube and do not hold it with your hand. 
- 10.6uM laser radiation, even stray, causes permanent damage to your eye. Wear [laser safety goggles](https://smokeandmirrors.store/collections/products/products/pollycarbonate-10-6)!
-
-
-Start with a safety warning, that interlocks should be engaged and panels and lids etc closed, CO2 lasers emit laser radiation and an unfocused laser beam at 10.6uM also that whilst firing materials can catch fire or reflect dangerous beams and that a very high voltage is generated at the anode end of the tube and static is discharged at the cathode end where you are dangling a block of conductive metal and your fingers. Recommend PPE and precautions:
+10.6uM laser radiation, even stray, causes permanent damage to your eye. Wear [laser safety goggles](https://smokeandmirrors.store/collections/products/products/pollycarbonate-10-6)!
 
 ## Contents:
 
@@ -25,8 +22,8 @@ Start with a safety warning, that interlocks should be engaged and panels and li
 ## Specs
 
 - usable for 20-150W infrared CO2 laser tubes.
-- asolue accuracy: ±5W
-- relative rerror: <±2W
+- asolute accuracy: ±5W
+- relative error: <±2W
 
 ## Therory of operation
 
@@ -54,6 +51,9 @@ The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire 
 ![](/img/connector.jpg)
 
 ### Connecting to Arduino
+
+![](/img/fritzing.jpg)
+
 
 Connect the probe as follows:
 
