@@ -6,7 +6,7 @@ The calibration data is stored on the probe and writteh on the sleeve of it's ca
 
 ## Contents:
 
-- PowerSensor calibrated and labeled with it's id and calibration data. 
+- PowerSensor calibrated and labeled with it's ID and calibration data. 
 - Matching  JST SM 2,54mm plug with wires
 - 4,7k Ohm Resistor 
 
@@ -35,7 +35,7 @@ The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire 
 | Pin | color on sensor | color on plug | Arduino Pin |
 |-----|-----------------|---------------|-------------|
 | 1   | yellow          | black         | A0          |
-| 2   |                 | green         |             |
+| 2   |                 | green (unused)        |             |
 | 3   | red             | red           | 5V/3,3V     |
 | 4   | black           | blue          | GND         |
 
@@ -51,7 +51,7 @@ black to A0
 
 Now add a 4,7k Ohm pullup resistor between the red and black wire. 
 
-The green wire remains unconnected. 
+The green wire unsued and remains unconnected. 
 
 ## Software 
 
@@ -77,10 +77,12 @@ Some controllers can only be set to fire for 10s (Ruida) it is okay to fire thos
 Connect your Arduino with the PowerSensor to your computer and in the Arduino IDE open the Serial Monitor at 115200 Baud.
 
 Mount the sensor block on the stainless tube sticking out of the black block or suspend the sensor on it's cable just in front of the laser tube. 
-Follow the intructions in the serial terminal and fire tle laser for 20s. 
+Follow the intructions in the serial terminal and fire the laser for 20s. 
 
 Keep in mind, that the block stays hot afte the mesurement for a while.
 
+
+"This probe has been tested and calibrated and provides an indicative indication of tube wattage, it is not intended to be a definitive measurement and is not certified."
 
 
 
