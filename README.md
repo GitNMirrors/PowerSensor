@@ -51,7 +51,7 @@ The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire 
 | 3   | red             | red           | 5V/3,3V     |
 | 4   | black           | blue          | GND         |
 
-![](/img/Cable.png)
+![](/img/connector.jpg)
 
 ### Connecting to Arduino
 
