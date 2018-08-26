@@ -1,5 +1,7 @@
 # Smoke and Mirrors PowerSensor
 
+![](/img/overview.jpg)
+
 Our Power Sensor is an affordable piece of kit to check your infrared CO2 lasertube and keep track of it's power over time. 
 At the moment we supply it as the Sensor only, you will have to hook it up to an Arduino flash our arduino sketch. 
 The calibration data is stored on the probe and writteh on the sleeve of it's cable. 
@@ -29,13 +31,13 @@ A 1-wire temperature sensor inside the block measures the rise in temperature wh
 
 The JST SM receptical attached to the power seonsor only has 3 pins in a 4 wire housing for futre expansion. 
 
-###Pinout 
+### Pinout 
 
 
 | Pin | color on sensor | color on plug | Arduino Pin |
 |-----|-----------------|---------------|-------------|
 | 1   | yellow          | black         | A0          |
-| 2   |                 | green (unused)        |             |
+| 2   |                 | green (unused)|             |
 | 3   | red             | red           | 5V/3,3V     |
 | 4   | black           | blue          | GND         |
 
@@ -82,6 +84,7 @@ Follow the intructions in the serial terminal and fire the laser for 20s.
 Keep in mind, that the block stays hot afte the mesurement for a while.
 
 
+### Disclaimer
 "This probe has been tested and calibrated and provides an indicative indication of tube wattage, it is not intended to be a definitive measurement and is not certified."
 
 
