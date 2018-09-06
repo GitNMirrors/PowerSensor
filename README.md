@@ -2,9 +2,12 @@
 
 ![](/img/overview.jpg)
 
-Our Power Sensor is an affordable piece of kit to check your infrared CO2 lasertube and keep track of it's power over time. 
-At the moment we supply it as the Sensor only, you will have to hook it up to an Arduino flash our arduino sketch. 
-The calibration data is stored on the probe and writteh on the sleeve of it's cable. 
+This power sensor is an accessory for Arduino and similar microcontrollers. The kit includes the power sensor and a cable to connect it to an Arduino. It does not include an Arduino or a micro controller. 
+
+Our Power Sensor is an affordable piece of kit to check your infrared 10.64μm CO2 laser tube. This allows laser cutter owners and hobbyists to measure the power in Watts of their CO2 laser cutter keeping track of it's power over time.
+
+At the moment we supply it as the Sensor only, you will have to hook it up to an Arduino 
+The calibration data is stored on the probe and written on the sleeve of it's cable. 
 
 ## WARNING 
 
@@ -74,7 +77,7 @@ https://www.arduino.cc/en/Main/Software
 And the "DallasTemperature" library which can be installed via the library manager:
 https://www.arduino.cc/en/Guide/Libraries
 
-Download this repository and flash the sketch to your arduino
+Download this repository and flash the sketch to your Arduino
 https://github.com/GitNMirrors/PowerSensor/archive/master.zip
 
 
