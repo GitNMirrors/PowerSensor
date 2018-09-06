@@ -127,7 +127,7 @@ void PrintManual(){
   Serial.println("          CO2 Laser Powermeter 20-100W");
   Serial.println("");
   Serial.println("Make sure the sensor is at ambient temperature");
-  Serial.println("Fire the laser at the sensor lock full power for 20 Seconds");
+  Serial.println("Fire the laser at the sensor block full power for 20 Seconds");
   Serial.println("");
   Serial.println("Ths program will detect the temperature rise and start the mesurement automatically.");
   Serial.println("");
