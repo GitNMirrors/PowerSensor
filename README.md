@@ -14,7 +14,7 @@ The calibration data is stored on the probe and written on the sleeve of it's ca
 High power lasers are dangerous and emit laser radiation. A stray or even unfocused laserbeam at 10.6uM can set materials on fire and causes permanent damage to human tissue.
 All interlocks should be engaged and all panels on your cutter shut. 
 The high voltage generated at the anode of the tube is discharged at the cathode where the beam leaves the tube. Mount the sensor on the stainless tube and do not hold it with your hand. 
-10.6uM laser radiation, even stray, causes permanent damage to your eye. Wear [laser safety goggles](https://smokeandmirrors.store/collections/products/products/pollycarbonate-10-6)!
+10.6 μm laser radiation, even stray, causes permanent damage to your eye. Wear [laser safety goggles](https://smokeandmirrors.store/collections/products/products/pollycarbonate-10-6)!
 
 ## Contents:
 
@@ -25,8 +25,7 @@ The high voltage generated at the anode of the tube is discharged at the cathode
 ## Specs
 
 - usable for 20-150W infrared CO2 laser tubes.
-- asolute accuracy: ±5W
-- relative error: <±2W
+- accuracy: ±5W
 
 ## Therory of operation
 
