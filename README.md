@@ -35,6 +35,8 @@ The power probe consits of a block of black anodized aluminium with a digital te
 The black anodizing absorbs the infrared laser beam and transfers the heat to the aluminum block. 
 A 1-wire temperature sensor inside the block measures the rise in temperature while the laser is firing. 
 
+In simple terms shoot your laser at the block of anodized aluminum, aim to widest side, in the middle. It is suggested that you use a "helping hand" or "third hand" as used for soldering assembly to hold the block in the beam, using a crocodile clip at the wire close to the anodised block. Try to ensure that anodized block is not in contact with any other material or conductors. Ensure that the enodised block is not in contact with the cathode wire (or close enough to make a contact) and is not touching the mirrors or lens. It is best to test the power of your laser beam unfocused. That is do not test your beam focused, beyond the lens, as the intense beam may harm the anodization.
+
 
 ## Wiring 
 
